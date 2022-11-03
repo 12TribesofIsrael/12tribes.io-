@@ -1,0 +1,559 @@
+ 
+/*------------------------------------------------------------------*/
+/*	START - GLOBAL
+/*------------------------------------------------------------------*/
+
+@media only screen and (max-width: 580px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+}
+
+/*------------------------------------------------------------------*/
+/*	END - GLOBAL
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*	START - RESPONSIVE HEADER FOOTER
+/*------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1440px) {
+
+    #main-nav .menu li a {
+        font-size: 14px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .neoh_fn_header.desktop {
+        display: none;
+    }
+
+    .neoh_fn_header.mobile {
+        display: block !important;
+    }
+
+    .hamburger {
+        width: 25px;
+    }
+
+    header.neoh_fn_header.mobile #site-header-inner {
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 15%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover,
+    .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    .overlay-content #main-nav .menu {
+        display: block;
+    }
+
+    a.closebtn {
+        font-size: 17px;
+        line-height: 24px;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        color: #fff;
+    }
+
+    .neoh_fn_header.fixer {
+        background-color: #111;
+        padding: 35px 30px 30px !important;
+    }
+
+    .wallet-address {
+        width: 180px;
+    }
+
+    .navWidth {
+        width: 50% !important;
+    }
+
+    .neoh_fn_totop {
+        bottom: 100px;
+    }
+
+    .neoh_fn_header {
+        padding: 30px !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .connect {
+        display: none !important;
+    }
+
+    #main-nav .menu li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item.tabbed {
+        display: none !important;
+    }
+
+    span.mobile-caret {
+        right: 50px;
+        position: absolute;
+        top: 10px;
+    }
+
+    .openMobileSub .menu-item.tabbed {
+        display: block !important;
+    }
+
+    .openMobileSub .mobile-caret {
+        transform: rotate(90deg);
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .navWidth {
+        width: 100% !important;
+    }
+
+    .fb_in {
+        align-items: center !important;
+    }
+
+    .play-pause-container {
+        right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .neoh_fn_footer .fb_right ul {
+        display: unset;
+        margin-left: 0;
+    }
+
+    .neoh_fn_footer .fb_right li {
+        padding-left: 0;
+        margin-left: -40px;
+    }
+
+}
+
+/*------------------------------------------------------------------*/
+/*	END - RESPONSIVE HEADER FOOTER
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*	START - RESPONSIVE HOME
+/*------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 1440px) {
+
+    .mint-button .tf-button {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .neoh_fn_hero .fn_title {
+        font-size: 50px;
+        letter-spacing: 25px;
+    }
+
+    .neoh_fn_team .team_list {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .prophecy-video {
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .roadmap {
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .neoh_fn_hero .fn_title {
+        font-size: 40px;
+        letter-spacing: 15px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+}
+
+
+/*------------------------------------------------------------------*/
+/*	END - RESPONSIVE HOME
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*	START - RESPONSIVE MINTING
+/*------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 1440px) {
+
+    .minting .neoh_fn_hero {
+        padding: 50px 0 50px;
+    }
+
+    .swiper-carousel,
+    .swiper-carousel-two {
+        overflow: hidden;
+    }
+
+    .minting .neoh_fn_drops ul {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .hero-title-section .title {
+        font-size: 45px;
+    }
+
+    .nft-image-rotating .nft-gif {
+        margin-top: -130px !important;
+    }
+
+    .minting-title br {
+        display: none;
+    }
+
+    .mint-function {
+        padding: 20px;
+    }
+
+    .mint-data p {
+        font-size: 16px;
+    }
+
+    img.card-img {
+        margin-top: -90px;
+    }
+
+    section.key-elements.desktop {
+        display: none;
+    }
+
+    section.key-elements.mobile {
+        display: block;
+        height: unset;
+    }
+
+    section.key-elements h2 {
+        float: unset;
+        text-align: center;
+        margin-right: unset;
+    }
+
+    .key-element p {
+        margin-bottom: 0;
+    }
+
+    h2.rotated {
+        font-size: 55px;
+    }
+
+    .circle-text {
+        font-size: 18px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .minting-title br {
+        display: none;
+    }
+    
+    .minting .hero_content .container {
+        display: unset;
+    }
+
+    .hero-image {
+        margin-top: 50px;
+    }
+
+    .requirements-list {
+        width: 100%;
+    }
+
+    .requirements-data .description {
+        font-size: 20px;
+    }
+
+    .requirements-data .number {
+        font-size: 50px;
+    }
+
+    .mint-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .mint-data.amount.desktop, .mint-button-desktop {
+        display: none;
+    }
+
+    .mint-data.amount.mobile {
+        display: flex;
+    }
+
+    .mint-button-mobile {
+        display: block;
+    }
+
+    .cards-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    img.card-img {
+        margin-top: -95px;
+        width: 15%;
+    } 
+
+    .follow-inner {
+        grid-template-columns: repeat(1, 1fr);
+        height: unset;
+    }
+
+    h2.rotated {
+        transform: unset;
+    }
+
+    .follow-text .top-title {
+        margin-bottom: unset;
+    }
+
+    .follow-text {
+        margin: 50px 0;
+    }
+
+    .follow-image {
+        width: 50%;
+    }
+
+    .medium-desktop,
+    .nft-button-desktop {
+        display: none;
+    }
+
+    .medium-mobile,
+    .nft-button-mobile {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 580px) {
+
+
+    .requirements-data {
+        gap: 20px;
+    }
+
+    .requirements-data .description {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .requirements-data .number {
+        font-size: 18px;
+        width: 20%;
+    }
+
+    img.card-img {
+        width: 20%;
+    }
+
+    h2.rotated {
+        font-size: 40px;
+    }
+
+    .key-element::after, .key-element {
+        width: 100%;
+    }
+
+    .key-element::before {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+
+    .mint-data input.amount {
+        min-width: 100px;
+    }
+
+    .mint-data .number {
+        width: 10%;
+    }
+
+    #articles iframe {
+        max-width: 85%;
+    }
+
+}
+
+
+/*------------------------------------------------------------------*/
+/*	END - RESPONSIVE MINTING
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*	START - MASTERCLASS
+/*------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+
+    .header-div-1 h1 {
+        font-size: 40px !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .price-table1-col {
+        width: 50%;
+    }
+
+    .header-bgimage-1 .tf-button {
+        bottom: 25px !important;
+    }
+
+    .iframe-bg.mobile, .masterclass-video-mobile {
+        display: block !important;
+    }
+
+    .iframe-bg.desktop {
+        display: none;
+    }
+
+    .iframe-container {
+        display: none !important;
+    }
+
+    .header-bgimage-1 {
+        height: unset !important;
+        padding-top: 50px !important;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .header-div-1 h1 {
+        font-size: 25px !important;
+    }
+
+    .header-bgimage-1 {
+        padding-top: 50px !important;
+    }
+
+    #articles iframe {
+        max-width: 85%;
+    }
+
+    .price-table1-col {
+        width: 100%;
+    }
+
+    .strategic-plan .logo {
+        width: 40%;
+    }
+
+}
+
+/*------------------------------------------------------------------*/
+/*	END - MASTERCLASS
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*	START - Prophecy/strategic plan/tribe pages
+/*------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 425px) {
+
+    .strategic-plan .logo {
+        width: 40%;
+    }
+
+}
+
+/*------------------------------------------------------------------*/
+/*	END - Prophecy/strategic plan/tribe pages
+/*------------------------------------------------------------------*/

@@ -1,0 +1,954 @@
+/*========================================== MASTER STYLESHEET ===================================================================
+
+	Project     :	APP TEMPLATES
+	Version     :	1.0
+	Last Change : 	08/05/2017
+	Primary Use :   APP TEMPLATES
+
+=================================================================================================================================*/
+
+/*========================================== LAYOUT ===================================================================
+
+		1.GLOBAL STYLES
+		2.COMMON STYLES	
+		3.NAVIGATION
+		4.BUTTON
+		5.HEADER		
+		6.ABOUT
+		7.BUSINESS ADVANTAGE		
+		8.SERVICES
+		9.SKILL
+		10.COUNTER
+		11.FEATURES
+		12.VIDEO
+		13.GALLERY
+		14.TEAM
+		15.TESTIMONIAL
+		16.PRICE TABLE
+		17.TWO COLUMN
+		18.ONE COLUMN
+		19.DOWNLOAD
+		20.NEWS
+		21.FAQ
+		22.CLIENTS
+		23.FOOTER
+		24.FORMS			
+
+=================================================================================================================================*/
+
+/*========================================== COLOR CODES =========================================================================
+
+	Background         :#ffffff [white]
+	Theme Color        :#f15b49 [Orange]	
+	Main Heading Color :#333333 [Dark Gray]	
+	Content Color      :#666666 [light Gray]
+
+=================================================================================================================================*/
+
+/*========================================== TYPOGRAPHY =========================================================================
+
+	Heading:font-family: 'Roboto Condensed', serif;	
+	Body :font-family: 'Open Sans', sans-serif , Arial , Vedana  , Trebuchet MS;
+
+=================================================================================================================================*/
+
+/*========================================== 1.GLOBAL CSS START ===========================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+  background: #0a0a0a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+h1,h2,h3,h4,h5,p {  
+  margin: 0;
+}
+
+h1 {	
+	color: #333333; 
+	font-family: 'Roboto Condensed', serif;	
+	font-size:45px;	
+	font-weight:400;	
+	letter-spacing:1px;	
+	text-transform:uppercase;
+}
+
+h2 {
+	color: #333333; 
+	font-family: 'Roboto Condensed', serif;	
+	font-size:38px;	
+	font-weight:400;	
+	letter-spacing:1px;	
+	text-transform:uppercase;
+}
+
+h3 {
+	color: #333333; 
+	font-family: 'Roboto Condensed', serif;	
+	font-size:28px;	
+	font-weight:400;	
+	letter-spacing:1px;	
+	text-transform:uppercase;
+}
+
+h4 {
+	color: #333333; 
+	font-family: 'Roboto Condensed', serif;	
+	font-size:22px;		
+	font-weight:400;	
+	letter-spacing:1px;	
+	line-height:26px;	
+	text-transform:uppercase;	
+}
+
+h5 {
+	color: #333333; 
+	font-family: 'Roboto Condensed', serif;	
+	font-size:16px;	
+	font-weight:400;	
+	letter-spacing:1px;	
+	text-transform:uppercase;
+}
+
+h6 {
+	color: #333333; 
+	font-family: 'Roboto Condensed', serif;	
+	font-size:15px;	
+	font-weight:400;	
+	letter-spacing:1px;	
+	text-transform:uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {	
+	text-transform:uppercase;	
+}
+
+.text-center {
+	text-align:center;
+}
+
+.text-left {
+	text-align:left;
+}
+
+.text-right {
+	text-align:right;
+}
+
+/*========================================== 1.GLOBAL CSS END ===========================================*/
+
+/*========================================== 2.COMMON CSS START ===========================================*/
+
+.section-padding {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.footer-section-12,
+.footer-section-11,
+.footer-section-8,
+.footer-section-6,
+.footer-section-3,
+.footer-section-1,
+.section-1-bg {
+  background-color:transparent;
+}
+
+.footer-section-10,
+.footer-section-7,
+.footer-section-4,
+.footer-section-2,
+.section-2-bg {
+  background-color:transparent;
+}
+
+.section-3-bg {
+	background-color:#111111;
+}
+
+.footer-section-9,
+.footer-section-5 {
+	background-color:#333333;
+}
+
+.footer-section-13 {
+	background-color:#f981a6;
+}
+
+.footer-section-14-1 {
+	background-color:#f86740;
+}	
+
+.footer-section-14-2 {
+	background-color:#ffffff;
+}
+
+.theme-2-bg {
+	background-color:#01b1d6;
+}
+
+.theme-3-bg {
+	background-color:#14bbb2;
+}
+
+.theme-4-bg {
+	background-color:#fea501;
+}
+
+.theme-6-bg {
+	background-color:#9dc850;
+}
+
+.theme-7-bg {
+	background-color:#ffba00;
+}
+
+.theme-9-bg {
+	background-color:#97214f;
+}
+
+.theme-9-1-bg {
+	background-color:#994968;
+}
+
+.theme-10-bg {
+	background-color:#32c5d2;
+}
+
+.theme-11-1-bg {
+	background-color:#f27935;
+}
+
+.theme-12-bg {
+	background-color:#c79c60;
+}
+
+.theme13-1-bg {
+	background-color:#a993dc;
+}
+
+.theme13-2-bg {
+	background-color:#f981a6;
+}
+
+.theme13-3-bg {
+	background-color:#4bc8c8;
+}
+
+.theme15-bg {
+	background-color:#f73c56;
+}
+
+.theme1-color {
+	color:#f15b49;
+}
+
+.theme3-color {
+	color:#14bbb2;
+}
+
+.theme4-color {
+	color:#fea501;
+}
+
+.theme6-color {
+	color:#9dc850;
+}
+
+.theme7-color {
+	color:#ffba00;
+}
+
+.theme8-color {
+	color:#2c98d6;
+}
+
+.theme8-color a {
+	color:#2c98d6;
+}
+
+.theme9-color {
+	color:#97214f;
+}
+
+.theme9-color a {
+	color:#97214f;
+}
+
+.theme10-color {
+	color:#32c5d2;
+}
+
+.theme11-color {
+	color:#01b1d6;
+}
+
+.theme12-color {
+	color:#c79c60;
+}
+
+.theme12-1-color {
+	color:#c13a0d;
+}
+
+.theme13-color {
+	color:#f981a6;
+}
+
+.theme13-1-color {
+	color:#4bc8c8;
+}
+
+.theme13-2-color {
+	color:#ffab05;
+}
+
+.theme13-3-color {
+	color:#a993dc;
+}
+
+.theme14-color {
+	color:#f86740;
+}
+
+.theme14-color:hover {
+	color:#f86740;
+}
+
+.theme15-color {
+	color:#f73c56;
+}
+
+.theme9-heading-div,
+.counter7-heading-div,
+.services7-div,
+.clients6-bg,
+.theme6-heading-div,
+.theme4-heading-div,
+.theme2-heading-div,
+.heading-div-1 {
+	padding-bottom:20px;
+}
+
+.heading-div-2 {
+	padding-bottom:30px;
+}
+
+.heading-div-2 > p,
+.heading-div-1 > p {
+	font-size:16px;
+    letter-spacing:0.5px;
+	margin:0 auto;
+    padding-top:12px;
+	width:80%;
+}
+
+.heading-div-1 h5 {
+	margin-bottom:5px;
+}
+
+.header11-border {
+	border-bottom:1px solid #dddddd;
+	margin:30px auto 0 auto;
+	width:80%;
+}
+
+.intro10 {
+	font-size:17px !important;
+}
+
+.intro11 {
+	font-size:17px !important;
+}
+
+.counter7-heading-div h2,
+.services7-div h2,
+.clients6-bg h2,
+.theme9-heading-div h2,
+.theme6-heading-div h2,
+.theme4-heading-div h2, 
+.theme2-heading-div h2 {
+	color:#ffffff;
+}
+
+.bgimage-property {	
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.full-width-bgimage {
+	background-image: url("../../img/charity/1500x540.jpg");
+	height:540px;
+}
+
+.bottom-space {
+	padding-bottom:30px;
+}
+
+.navbar-default .navbar-nav > li > a,
+.content-spacing {
+	letter-spacing:1px;
+}
+
+.content-spacing-1 {
+	letter-spacing:0.5px;
+}
+
+.content-spacing-2 {
+	letter-spacing:2px;
+}
+
+.content-uppercase {
+	text-transform:uppercase;
+}
+
+.content-capitalize {
+	text-transform:capitalize;
+}
+
+.content-weight400 {
+	font-weight:400;
+}
+
+.content-weight600 {
+	font-weight:600;
+}
+
+.content-weight700 {
+	font-weight:700;
+}
+
+.content-weight900 {
+	font-weight:900;
+}
+
+.content-bold {
+	font-weight:bold;
+}
+
+.content-italic {
+	font-style:italic;
+}
+
+.screenshot-1 img,
+.content-img img,
+.content-margin {
+	margin:0 auto;
+}
+
+.no_padding {
+	padding:0;
+}
+
+.no-row {
+	margin:0;
+}
+
+.content-ul li,
+.content-li {	
+	list-style:none;
+}
+
+.content-display-lb li,
+.header7-ul li,
+.team6-icon li,
+.volunteers4-icon li,
+.team2-icon li,
+.download1-image li,
+.content-li-display-1 {
+	display:inline-block;	
+}
+
+.header-div-2 ul li,
+.content-li-display-2 {
+	display:table-cell;	
+}
+
+.image-top-space-1 {
+	margin-top:30px;
+}
+
+.image-bottom-space {
+	margin-bottom:18px;
+}
+
+.content-top-space {
+	margin-top:8px;
+}
+
+
+.content-display-tc li,
+.about7-ul li,
+.price-table6_1-ul li,
+.price-table6-ul li,
+.services6-ul li,
+.price-table3-buy li,
+.list-div-left,
+.list-div-body {
+	display:table-cell;
+}
+
+.list-div-left {
+	padding-right:20px;
+	vertical-align:top;
+	width:60px;
+}	
+
+.list-div-right {
+	width:100%;
+}
+
+.list-ul li:nth-child(3),
+.list-ul li:nth-child(2),
+.list-ul li:nth-child(1) {
+	margin-bottom:20px;
+}
+
+.content-ul {
+	padding-left:0;
+	margin-bottom:0;
+}
+
+/* .heading-tag-color {
+	color:#333333;
+}
+
+.heading-tag-color:hover {
+	color:#333333;
+} */
+
+.text-white {
+	color:#ffffff;
+}
+
+.text-white:hover {
+	color:#ffffff;
+}
+
+.footer-text-gray {
+	color:#bbbbbb;
+}
+
+.no-padding {
+	padding-left:0;
+	padding-right:0;
+}
+
+.lettersize-12 {
+	font-size:12px;
+}
+
+.lettersize-13 {
+	font-size:13px;
+}
+
+.lettersize-14 {
+	font-size:14px;
+}
+
+.lettersize-15 {
+	font-size:15px;
+}
+
+.lettersize-16 {
+	font-size:16px;
+}
+
+.lettersize-18 {
+	font-size:18px;
+}
+
+.lettersize-20 {
+	font-size:20px;
+}
+
+.lettersize-22 {
+	font-size:22px;
+}
+
+.lettersize-24 {
+	font-size:24px;
+}
+
+.btn-top_space  {
+	margin-top:20px;
+}
+
+.letter-height20 {
+	line-height:20px;
+}
+
+.letter-height22 {
+	line-height:22px;
+}
+
+.letter-height29 {
+	line-height:29px;
+}
+
+.letter-height30 {
+	line-height:30px;
+}
+
+.letter-height32 {
+	line-height:32px;
+}
+
+.letter-height40 {
+	line-height:40px;
+}
+
+.letter-height50 {
+	line-height:50px;
+}
+
+.letter-height60 {
+	line-height:60px;
+}
+
+.letter-height70 {
+	line-height:70px;
+}
+
+.heading-section-padding {
+	padding-top:50px;
+}
+
+/*========================================== 2.COMMON CSS END ===========================================*/
+
+/*================================================ 4.BUTTON STRAT =========================================*/
+
+.btn {
+	border: none;
+	border-radius: 0;
+	color: #ffffff;
+	cursor: pointer;	
+	font-size:15px;	
+	outline: none;
+	padding: 10px 20px;
+}
+
+.btn.btn-1 {
+	background-color:#f15b49;
+}
+
+.btn.btn-1:hover {
+	background-color:#333333;
+}
+
+.btn.btn-2 {
+	background-color:#01b1d6;
+}
+
+.btn.btn-3 {
+	background-color:#14bbb2;
+}
+
+.btn.btn-7-1,
+.btn.btn-5-1,
+.btn.btn-3-1 {
+	background-color:#ffffff;
+}
+
+.btn.btn-3-1 {
+	color:#14bbb2;
+}
+
+.btn.btn-5-1 {
+	color:#43bccd;
+}
+
+.btn.btn-7-1 {
+	color:#ffba00;
+}
+
+.btn.btn-9-1 {
+	color:#97214f;
+}
+
+.btn.btn-10-1 {
+	color:#32c5d2;
+}
+
+.btn.btn-12-1 {
+	color:#c79c60;
+}
+
+.btn.btn-4 {
+	background-color:#fea501;
+}
+
+.btn.btn-5 {
+	background-color:#43bccd;
+}
+
+.btn.btn-6 {
+	background-color:#9dc850;
+}
+
+.btn.btn-7 {
+	background-color:#ffba00;	
+}
+
+.btn.btn-8 {
+	background-color:#2c98d6;	
+}
+
+.btn.btn-9 {
+	background-color:#97214f;
+	border-radius:50px;
+	box-shadow:0 3px 0 #c17b96;
+}
+
+.btn.btn-9-1 {
+	background-color:#ffffff;
+	border-radius:50px;
+	box-shadow:0 3px 0 #bc94a2;
+}
+
+.btn.btn-10 {
+	background-color:#32c5d2;	
+}
+
+.btn.btn-10-1 {
+	background-color:#ffffff;	
+}
+
+.btn.btn-11 {
+	background-color:#01b1d6;	
+}
+
+.btn.btn-11-1 {
+	background-color:#f27935;	
+}
+
+.btn.btn-12 {
+	background-color:#c13a0d;	
+}
+
+.btn.btn-12-1 {
+	background-color:#ffffff;	
+}
+
+.btn.btn-13 {
+	background-color:#f981a6;	
+}
+
+.btn.btn-13-1 {
+	background-color:#4bc8c8;	
+}
+
+.btn.btn-13-2 {
+	background-color:#a993dc;	
+}
+
+.btn.btn-14 {
+	background-color:#f86740;	
+}
+
+.btn.btn-15 {
+	background-color:#f73c56;	
+}
+
+.btn.btn-8 img { 	
+	padding-right:8px;
+	vertical-align:sub;
+}
+
+.btn.btn-15:focus,.btn.btn-15:hover,
+.btn.btn-14:focus,.btn.btn-14:hover,
+.btn.btn-13:focus,.btn.btn-13:hover,
+.btn.btn-12:focus,.btn.btn-12:hover,
+.btn.btn-11-1:focus,.btn.btn-11-1:hover,
+.btn.btn-11:focus,.btn.btn-11:hover,
+.btn.btn-10:focus,.btn.btn-10:hover,
+.btn.btn-9:focus,.btn.btn-9:hover,
+.btn.btn-8:focus,.btn.btn-8:hover,
+.btn.btn-7:focus,.btn.btn-7:hover,
+.btn.btn-6:focus,.btn.btn-6:hover,
+.btn.btn-5:focus,.btn.btn-5:hover,
+.btn.btn-4:focus,.btn.btn-4:hover,
+.btn.btn-3:focus,.btn.btn-3:hover,
+.btn.btn-2:hover,.btn.btn-2:focus,
+.btn.btn-1:focus,.btn.btn-1:hover { 
+	color: #ffffff;	
+}
+
+.btn.btn-3-1:focus,.btn.btn-3-1:hover {
+	color: #14bbb2;	
+}
+
+.btn.btn-7-1:focus,.btn.btn-7-1:hover {
+	color: #ffba00;	
+}
+
+.btn.btn-5-1 {
+	color:#43bccd;	
+}
+
+
+.readmore {
+	font-size:14px;
+	padding-top:10px;
+}
+
+.readmore1 {
+	color:#f15b49;
+}
+
+.readmore1:hover {
+	color:#f15b49;
+}
+
+.readmore2 {
+	color:#01b1d6;
+	font-size:14px;
+	padding-top:10px;
+}
+
+.readmore2:hover {
+	color:#01b1d6;
+}
+
+.readmore3 {
+	color:#14bbb2;	
+}
+
+.readmore3:hover {
+	color:#14bbb2;	
+}
+
+.buynow3 {
+	font-size:15px;	
+}
+
+.readmore4 {
+	color:#fea501;	
+}
+
+.readmore4:hover {
+	color:#fea501;	
+}
+
+.readmore6 {
+	color:#9dc850;	
+}
+
+.readmore6:hover {
+	color:#9dc850;	
+}
+
+.readmore7 {
+	color:#ffba00;	
+}
+
+.readmore7:hover {
+	color:#ffba00;	
+}
+
+.readmore8 {
+	color:#2c98d6;	
+}
+
+.readmore8:hover {
+	color:#2c98d6;	
+}
+
+.readmore9 {
+	color:#97214f;	
+}
+
+.readmore9:hover {
+	color:#97214f;	
+}
+
+.readmore10 {
+	color:#32c5d2;	
+}
+
+.readmore10:hover {
+	color:#32c5d2;	
+}
+
+.readmore11 {
+	color:#01b1d6;	
+}
+
+.readmore11:hover {
+	color:#01b1d6;	
+}
+
+.readmore11-1 {
+	color:#ffff66;
+}
+
+.readmore11-1:hover {
+	color:#ffff66;
+}
+
+.readmore12 {
+	color:#c79c60;	
+}
+
+.readmore12:hover {
+	color:#c79c60;	
+}
+
+.readmore13 {
+	color:#f981a6;	
+}
+
+.readmore13:hover {
+	color:#f981a6;	
+}
+
+.readmore13-1 {
+	color:#4bc8c8;	
+}
+
+.readmore13-1:hover {
+	color:#4bc8c8;	
+}
+
+.readmore14 {
+	color:#f86740;	
+}
+
+.readmore14:hover {
+	color:#f86740;	
+}
+
+.readmore15 {
+	color:#f73c56;	
+}
+
+.readmore15:hover {
+	color:#f73c56;	
+}
+
+.readmore6-1 {
+	color:#ffffff;	
+}
+
+.readmore6-1:hover {
+	color:#ffffff;	
+}
+
+.readmore9  img,
+.readmore8 img {
+	padding-right:10px;
+	vertical-align:sub;
+}
+
+/*================================================ 4.BUTTON ENDS ==========================================*/
+

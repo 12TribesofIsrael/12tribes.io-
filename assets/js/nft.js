@@ -357,7 +357,7 @@ $(document).ready(function () {
         async function mint() {
 
             var amount_to_mint = $('.mint-data input.amount').val();
-            const drop = await DropKit.create('h5LC28cdCdFkSwS14JLN'); // SDK key
+            const drop = await DropKit.create('dklNzeotNBgtTMvu2uef'); // SDK key
 
             // Showing of pop up
                 

@@ -123,7 +123,7 @@ $(document).ready(function () {
 
         // Check the user owned/minted/bought nft for the specific contract - how many does the user own/bought on the collection //
 
-        var tokenContract = '0x774830FCcdCa183c364a708c85cB4CeE1aa9616f';
+        var tokenContract = '0x5C56aC098Fd53EEf0F1F4d6fe2c1B3172F7939A5';
 
         var userNftOwnedSettings = {
             "url": "https://deep-index.moralis.io/api/v2/" +  userWallet['attributes']['ethAddress'] + "/nft/" + tokenContract,
@@ -311,7 +311,7 @@ $(document).ready(function () {
 
         // Check # of nft's (# users) minted/bought for the specific contract - how many user minted/bought/owns the collection //
 
-        let tokenContract = '0x774830FCcdCa183c364a708c85cB4CeE1aa9616f';
+        let tokenContract = '0x5C56aC098Fd53EEf0F1F4d6fe2c1B3172F7939A5';
 
         var userMinted = {
             "url": "https://deep-index.moralis.io/api/v2/nft/" + tokenContract + "/owners",

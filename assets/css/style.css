@@ -5699,6 +5699,8 @@ nav#main-nav {
 	color: #FFD909;
 }
 
+
+
 /*------------------------------------------------------------------*/
 /*	NEW - HOME
 /*------------------------------------------------------------------*/
@@ -5943,6 +5945,15 @@ p.verse-title {
 .img.footer-logo {
     width: 10%;
     margin: auto;
+}
+
+.powered img {
+	width: 45%;
+	margin-top: 10px;
+}
+
+.powered {
+	margin-top: 10px;
 }
 
 .medium {

@@ -22,7 +22,7 @@ $(document).ready(function () {
         // convert $1,444 based on the given exchange rate, which is 1 eth to dollars //
 
         var rate = parseInt(response['USD']); 
-        var usdPrice = 1444;
+        var usdPrice = 3000;
         var ethPrice = parseFloat(usdPrice / rate); // given rate is 1 eth to dollars , needed to divide the usd price to the rate //
         var ethPriceDecimal = ethPrice.toFixed(3)
 
